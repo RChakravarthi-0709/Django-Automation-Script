@@ -1,3 +1,5 @@
+OPEN RAW FILE FOR ORIGINAL FORMATTING OF README
+
 Sample automation script to find square of number 5 and render it in 127.0.0.1:8000/app1/
 STEPS:
 0.5: Import necessary libraries. eg, subprocess, os and sys
