@@ -53,7 +53,7 @@ htmlFile = f1.read()
 f1.close()
 
 # Step 7
-os.chdir('django3/app1')
+os.chdir(f"{list1[0]}/{list1[1]}")
 try:
     subprocess.run('mkdir templates', shell=True, stdout=subprocess.DEVNULL, check=True)
     os.chdir('templates')
